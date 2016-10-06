@@ -17,19 +17,13 @@ The JSON file (located in the `patchers/` directory) stores all of the cue data 
 
 ### Global parameters
 
-The data file stores information about the default output volume, and instrument panning.
+The data file stores information about the default output volume.
 
 ```json
-"mastervol" : "0.",
-"panning" : {
-  "perc1" : "-50",
-  "perc2" : "50"
-}
+"mastervol" : "0."
 ```
 
-The default output volume, i.e. `mastervol`, is set in dB, so a value of, for example, `-12` will set an output gain of -12dB.
-
-Panning is set on a scale of `-50.` to `50.`, where `-50.` is panned completely to the left, `50.` is panned completely to the right, and `0.` is centred.
+The default output volume, `mastervol`, is set in dB, so a value of, for example, `-12` will set an output gain of -12dB.
 
 ### Cues
 
@@ -37,11 +31,13 @@ A cue can be declared as follows:
 
 ```json
 "43" : {
-  "perc1" : "play wb.cue043-perc1.aif",
-  "perc2" : "stop"
+  "player-1" : "play wb.cue043-player-1.aif",
+  "player-2" : "stop"
 }
 ```
 
 The cue name, e.g. `43`, refers to the bar number, and cues will be triggered in ascending order.
 
-Within each cue, the names of instruments, e.g. `perc1`, indicate which instrument to target. A cue can either `stop` an instrument’s playback, or instruct it to `play` in which case a file name must be provided. All audio must be stored in the `media/` directory.
+Within each cue, the names of instruments, e.g. `player-1`, indicate which instrument to target. A cue can either `stop` an instrument’s playback, or instruct it to `play` in which case a file name must be provided.
+
+All audio must be stored in the `media/` directory. Currently only `player-1` and `player-2` are set up in the main patch.
