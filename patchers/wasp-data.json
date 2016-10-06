@@ -5,38 +5,30 @@
   "website" : "https://github.com/delucis/wasp-box",
   "version" : "0.1.0",
   "mastervol" : "0.",
-  "panning" : {
-    "perc1" : "-50",
-    "perc2" : "50"
-  },
   "cues" : {
-    "1" : {
-      "perc2" : "play wb.cue001-perc2.aif"
+    "32" : {
+      "player-1" : "play wb.32-43.wav"
     },
-    "13" : {
-      "perc1" : "play wb.cue013-perc1.aif"
+    "44" : {
+      "player-2" : "play wb.44-50.wav"
     },
-    "18" : {
-      "perc1" : "stop",
-      "perc2" : "stop"
+    "53" : {
+      "player-1" : "play wb.53.wav"
     },
-    "43" : {
-      "perc1" : "play wb.cue043-perc1.aif"
+    "58" : {
+      "player-2" : "play wb.58.wav"
     },
-    "134" : {
-      "perc2" : "play wb.cue134-perc2.aif"
+    "70" : {
+      "player-2" : "play wb.70.wav"
     },
-    "142" : {
-      "perc1" : "stop",
-      "perc2" : "stop"
+    "232" : {
+      "player-1" : "play wb.232.wav"
     },
-    "145" : {
-      "perc1" : "play wb.cue145-perc1.aif",
-      "perc2" : "play wb.cue145-perc2.aif"
+    "239" : {
+      "player-2" : "play wb.239.wav"
     },
-    "147" : {
-      "perc1" : "stop",
-      "perc2" : "stop"
+    "247" : {
+      "player-1" : "play wb.247.wav"
     }
   }
 }
