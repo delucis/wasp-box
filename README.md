@@ -13,7 +13,7 @@
 
 ## wasp-data.json
 
-The JSON file (located in the `patchers/` directory) stores all of the cue data and several global parameters.
+The JSON file (located in the `patchers/` directory) stores all of the cue data as well as global parameters.
 
 ### Global parameters
 
@@ -30,14 +30,19 @@ The default output volume, `mastervol`, is set in dB, so a value of, for example
 A cue can be declared as follows:
 
 ```json
+"38" : {
+  "player-2" : "play cue038.wav -3"
+},
 "43" : {
-  "player-1" : "play wb.cue043-player-1.aif",
+  "player-1" : "play cue043.aif",
   "player-2" : "stop"
 }
 ```
 
-The cue name, e.g. `43`, refers to the bar number, and cues will be triggered in ascending order.
+The cue name, e.g. `38`, refers to the bar number, and cues will be triggered in ascending order.
 
 Within each cue, the names of instruments, e.g. `player-1`, indicate which instrument to target. A cue can either `stop` an instrument’s playback, or instruct it to `play` in which case a file name must be provided.
+
+Optionally, a gain adjustment can be provided for each play instruction. For example, in cue `38` above, a -3dB gain will be applied. Wherever no third argument is provided, the gain defaults to 0dB.
 
 All audio must be stored in the `media/` directory. Currently only `player-1` and `player-2` are set up in the main patch.
