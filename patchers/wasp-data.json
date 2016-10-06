@@ -1,0 +1,42 @@
+{
+  "name" : "wasp-box",
+  "author" : "Chris Swithinbank",
+  "description" : "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (ii).",
+  "website" : "https://github.com/delucis/wasp-box",
+  "version" : "0.1.0",
+  "mastervol" : "0.",
+  "panning" : {
+    "perc1" : "-50",
+    "perc2" : "50"
+  },
+  "cues" : {
+    "1" : {
+      "perc2" : "play wb.cue001-perc2.aif"
+    },
+    "13" : {
+      "perc1" : "play wb.cue013-perc1.aif"
+    },
+    "18" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
+    },
+    "43" : {
+      "perc1" : "play wb.cue043-perc1.aif"
+    },
+    "134" : {
+      "perc2" : "play wb.cue134-perc2.aif"
+    },
+    "142" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
+    },
+    "145" : {
+      "perc1" : "play wb.cue145-perc1.aif",
+      "perc2" : "play wb.cue145-perc2.aif"
+    },
+    "147" : {
+      "perc1" : "stop",
+      "perc2" : "stop"
+    }
+  }
+}
