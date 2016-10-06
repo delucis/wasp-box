@@ -1,6 +1,6 @@
 {
   "name": "wasp-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sample playback for Clara Iannotta’s dead wasps in the jam-jar (ii).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
