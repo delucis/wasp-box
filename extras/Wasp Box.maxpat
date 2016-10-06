@@ -85,7 +85,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "perc2" ],
+					"args" : [ "player-2" ],
 					"id" : "obj-2",
 					"maxclass" : "bpatcher",
 					"name" : "wb._instrument.maxpat",
@@ -97,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "perc1" ],
+					"args" : [ "player-1" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "wb._instrument.maxpat",
