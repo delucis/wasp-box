@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 732.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 732.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -121,113 +121,106 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-10" : [ "live.numbox[3]", "live.numbox[1]", 0 ],
-			"obj-3::obj-10" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
+			"obj-5::obj-10" : [ "live.gain~[2]", "Output Volume", 0 ],
+			"obj-2::obj-10" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1::obj-13" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-5::obj-10" : [ "live.gain~", "Output Volume", 0 ]
+			"obj-3::obj-10" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "wb.masterctrl.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._modulebar.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._getcuelist.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._dict.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._instrument.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._sfplay.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._sfdict.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wb._pan.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb.shortcuts.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._keyctrl.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb.masterout.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._sflist.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._speakertest.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb.adstatus.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wb._version.maxpat",
-				"bootpath" : "/Users/chris/Documents/Max/Packages/wasp-box/patchers",
+				"bootpath" : "/Users/clara/Documents/Max/Packages/wasp-box/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
