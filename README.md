@@ -45,7 +45,7 @@ During a performance, use the large blue **Play Next** button or the <kbd>spaceb
 
 By default, keyboard shortcuts are enabled and you can use the following shortcuts to control the Wasp Box:
 
-|      shortcut       |
+|      shortcut       |                                  |
 |:-------------------:|:---------------------------------|
 | <kbd>spacebar</kbd> | _play next cue_                  |
 |  <kbd>escape</kbd>  | _stop playing_                   |
