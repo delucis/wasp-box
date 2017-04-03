@@ -2,7 +2,11 @@
 
 :violin: Sample playback for Clara Iannotta’s [_dead wasps in the jam-jar (ii)_](http://claraiannotta.com/works/orchestra/dead-wasps-in-the-jam-jar-ii-2016/).
 
-## Instructions
+## Installation
+
+`wasp-box` is a package for use with Cycling 74’s [Max](https://cycling74.com/products/max/) software. If you don’t own Max, you can [download it from Cycling 74’s website](https://cycling74.com/downloads/) for free.
+
+To install the `wasp-box` package:
 
 1. Download the [__latest version__](https://github.com/delucis/wasp-box/releases/latest) (click on `wasp-box.zip`).
 
