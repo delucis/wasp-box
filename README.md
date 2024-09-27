@@ -1,4 +1,4 @@
-# wasp-box [![Build Status](https://travis-ci.org/delucis/wasp-box.svg?branch=master)](https://travis-ci.org/delucis/wasp-box)
+# wasp-box
 
 :violin: Sample playback for Clara Iannotta’s [_dead wasps in the jam-jar (ii)_](http://claraiannotta.com/works/orchestra/dead-wasps-in-the-jam-jar-ii-2016/).
 
